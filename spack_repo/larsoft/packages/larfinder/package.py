@@ -17,6 +17,7 @@ class Larfinder(CMakePackage, FnalGithubPackage):
     version_patterns = ["v09_00_01"]
     maintainers = ["marcmengel"]
 
+    version("09.00.06", sha256="18ef5dcf803d1aaaf16c99d6c21aa477936fa9196eb0e8a20eb6bf98a3cf9bd0")
     version("09.00.05", sha256="eb066c3afd8d1b0ed629238bb2ecb774ab14fa9481e4adc4ecf06ecc50b35870")
     version("09.00.04", sha256="fbd2ea2bd04b54e91fcb4b402041f9abdd2d77a09c5a507c1dccc09b1e73221b")
     version("09.00.03", sha256="d6e8b9ee5ca183fe96dc773b0ba727cdc72937f7b26bfdda804a3d0165d6ab00")
