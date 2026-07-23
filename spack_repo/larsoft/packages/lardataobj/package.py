@@ -17,6 +17,7 @@ class Lardataobj(CMakePackage, FnalGithubPackage):
     git = "https://github.com/%s" % repo
     version_patterns = ["v09_00_00", "09.18.00"]
 
+    version("10.05.02", sha256="575dff64157bb47aa0a2bab910e3987fc9e0d1079809fd467988718b1f2fa004")
     version("10.05.01.01", sha256="4b2dcf5fff64f45db9f3fbcb1093c0b0ebf574983c9af4cd10c504d3046a8466")
     version("10.05.01", sha256="178c67ba28d76e266c2751897c8b10f31029333dd517c8c73a5a7410f20062e0")
     version("10.05.00", sha256="dfc149b584b3160bec3bd53a362becab34da0320c515605635d895d2488892e1")
