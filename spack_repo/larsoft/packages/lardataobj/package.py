@@ -17,6 +17,7 @@ class Lardataobj(CMakePackage, FnalGithubPackage):
     git = "https://github.com/%s" % repo
     version_patterns = ["v09_00_00", "09.18.00"]
 
+    version("10.05.03", sha256="6767ee07875cd234c2c577ed4a9759b2a26931b162f7b2813e5a888060d86a63")
     version("10.05.02", sha256="575dff64157bb47aa0a2bab910e3987fc9e0d1079809fd467988718b1f2fa004")
     version("10.05.01.01", sha256="4b2dcf5fff64f45db9f3fbcb1093c0b0ebf574983c9af4cd10c504d3046a8466")
     version("10.05.01", sha256="178c67ba28d76e266c2751897c8b10f31029333dd517c8c73a5a7410f20062e0")
@@ -26,6 +27,7 @@ class Lardataobj(CMakePackage, FnalGithubPackage):
     version("10.02.01", sha256="9acba10a22504d3710b83299d75e2d864b872c546120c23747be9a0f3383b28b")
     version("10.02.00", sha256="13f7ce1e2cccfb6ca073cfb7731e103d0aed0cf112625253dc5c1094a36a1837")
     version("10.01.00", sha256="1d0306c0c0ae270335bf869852295d5c25a95d2acb99c8836f7144bac06063ec")
+    version("10.00.03", sha256="b6fa481c9eb3a519b74731c85ba6697bf28f3623edbcdc02cef6c04d545cbc9d")
     version("10.00.02", sha256="5c4022c33be601fc3e7e5f06dd3a5cff2564264753868bd7ea4fbb8cd4df13a4")
     version("10.00.00", sha256="13d44ca0292338454e4857de555bb3fb8033b70bed5ed61012f2ad0c1b60e376")
     version("09.19.00", sha256="8e689900cef678fb25c161f7fc676be25b64f1d79e65a9839d4c7e5b1a7c1040")

@@ -17,9 +17,11 @@ class Larsim(CMakePackage, FnalGithubPackage):
     git = "https://github.com/%s" % repo
     version_patterns = ["v09_00_00", "09.40.01"]
 
+    version("10.20.06", sha256="f46ffbba40fa5600b636dc4e81be9dcc5f754eab7ceee1c30a70707252f14222")
     version("10.20.05", sha256="5c756580c5c7d21ff9612cd1faa44cab7c4ce1aacfc2c9a91bdd005af5806709")
     version("10.20.04", sha256="f17e782753291e0ad95000332cfa8258e38969a5f0aa33e62346bb75fa697535")
     version("10.20.03", sha256="5a659d3f97b6dff2cf3fcc1cd00d43bc953c0e9d2d30f2c99843afbf1da64d1c")
+    version("10.20.02.02", sha256="a355983fa89f639b97342b87ab5aceef08070c0fdb185f76567ccdc83b680cc0")
     version("10.20.02.01", sha256="42bb4a2004bd08a1ca82291e5d5fadc835f602242049f68044431b3347b0d0ac")
     version("10.20.02", sha256="8d6339b274d984ab58db0a776b11feb0e059d35b358da7ef471d3df34a655653")
     version("10.20.01", sha256="8a913af83881719fac951d398a109d8a2df71608211d3b7433735200a1180f98")

@@ -23,6 +23,8 @@ class Larsoftobj(BundlePackage, FnalGithubPackage):
 
     with default_args(deprecated=True):
         # All versions are deprecated as larsoftobj is no longer necessary
+        version("10.06.03")
+        version("10.06.02")
         version("10.06.01.01")
         version("10.06.01")
         version("10.00.04")
