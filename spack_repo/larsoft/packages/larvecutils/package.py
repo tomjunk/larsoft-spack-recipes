@@ -16,6 +16,7 @@ class Larvecutils(CMakePackage, FnalGithubPackage):
     git = "https://github.com/%s" % repo
     version_patterns = ["v09_00_00"]
 
+    version("09.04.04", sha256="727fc4a79c0eeffacf86b4261819efe00b750a6c718e54c3f7926be81c27263f")
     version("09.04.03.01", sha256="9ac920006b8933e3ac93d82c5660796afe59271943f1da88fd7e0d128ce5664b")
     version("09.04.03", sha256="f419f2342366001ee1893ac216515ba0fe66d30fcee0194d5da1ee92b6d274f1")
     version("09.04.02", sha256="823c9496bced1f6e298cc7dfab2ca1c8d718e37e551f333329667bbc9632fcc6")
